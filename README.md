@@ -1,7 +1,16 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Callbi Recordings Uploader. Speech-To_Text
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+This app extracts .ogg call recordings from an SFTP, creates a csv file containing metadata for the call recordings, uploads the call recordings and the metadata file to an S3 bucket which triggers Callbi to download the dat afrom s3 and transcribe the recordings.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+# Running audio uploader
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+Add your credentials to the docs/config.ini file
+
+Run from main.py file using py -m main
+
+
+
+
+
+
+
